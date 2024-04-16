@@ -1,120 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My Site</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/css/my-style.css">
+<title>Bakery</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href= "assets/css/my-style.css">
 </head>
+
 <body>
-<!-- ******HEADER****** -->
-<header id="header" class="header">
-    <div class="container">
-
-        <p class= "story">Story</p>
-        <div class= "top-bar">
-            <div class= "block">
-                <p class= "marcy">Marcy..</p>
-            </div>
-        </div>
-
-        
-        <div class="nav-menu">
-            <div id="burger">
-                <span></span><span></span><span></span>
-            </div>
-                <ul class="menu">
-                <li><a href="/">Home Page</a></li>
-                <li><a href="/about.php">About Us</a></li>
-                <li><a href="/login.php">Log in</a></li>
-                </ul>
-        </div>
-        
-
-    </div>
-</header>
-
-<main class="main content">
-
-<div class="row custom_new">
-    <div class="div-text">
-        <h3 class="title">What is Lorem Ipsum?</h3>
-            <p class="text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer
-                took a galley of type and scrambled it to make a type specimen book. It has
-                survived not only five
-                centuries, but also the leap into electronic typesetting, remaining essentially
-                unchanged.
-            </p>
-                <p class="text">
-                    It was popularised in the 1960s with the release of Letraset sheets containing
-                    Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus PageMaker including
-                     versions of Lorem Ipsum
-                </p>
-
-    <p class="link">
-        <a href=”article.php”>Full Story</a>
-    </p>
-</div>
-<div class="image-block">
-
-    <img src="games/phot/dot.jpg" alt="Right Image" class="image">
-</div>
-
-    <div class="img-absolute">
-        <img src="games/phot/dota.jpg" alt="Image on Top" class="imgabove">
-    </div>
-</div>
  
-<div class="row">
-    <div class="div-quotation div-text">
-        <h3 class="title">We travel not to escape from our life but we travel our life not toescape fromus.... </h3>
-            <div class="image-block">
-                <img src="assets/img/mountain-view.jpg" alt="Centre Image" class="image">
+    <div class="header">
+        <div class="container">
+            <div class="header-line">
+                <div class="header-logo">
+                <img src="logo.jpg" alt="logo">
+                </div>
+
+                <div class="nav-menu">
+                    <ul class="menu">
+                        <li class="link">Home Page</li>
+                        <li class="link">About us</li>
+                        <li class="link">Contact us</li>
+                    </ul>
+                </div>
+
+                
+
+               <div class="phone"> 
+                    <div class="holdphone">
+                        <div class="phone-img">
+                            <img src="phone.png" alt="phone">
+                        </div>
+
+                        <div class="number"><a class="numb" href="#">+0672567916</a>
+                        </div>
+                    </div>
+
+
+                    <div class="phonetext">
+                        Зв'язатись з нами.
+                    </div>
+
+                    <div class="button">
+                        <a class="butt" href="#">Зробити замовлення</a>
+                    </div>
+
+                    <div class="menu-holder">
+                    <a href="#">
+                        <div class="menutext">Вітаємо у нашій пекарні!</div>
+                        <img src="menu1.png" alt="MENU">
+                    </a>
+                    <div class="undermenu">
+                        Найкраща випічка у місті
+                    </div>
+                </div>
+
+               </div>
             </div>
-                <p class="text">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer
-                    took a galley of type and scrambled it to make a type specimen book. It has
-                    survived not only five
-                    centuries, but also the leap into electronic typesetting, remaining essentiallyunchanged.
-                </p>
-                <p class="text">
-                It was popularised in the 1960s with the release of Letraset sheets containing
-                Lorem Ipsum passages,
-                and more recently with desktop publishing software like Aldus PageMaker including
-                versions of Lorem Ipsum.
-                </p>
-                <p class="link">
-                    <a href="article.php" class="full-story">Full Story</a>
-                </p>
+        </div>
     </div>
- </div>
 
- <div class="row iframe">
-    <iframe width="100%" height="480"
-        src=https://www.youtube.com/watch?v=dQw4w9WgXcQautoplay=0&color=white frameborder="0" allowfullscreen></iframe>
-</div>
+    <div class="center">
+        <div class="first">
+            <div class="menu-image">
+                <img src="dish-image.png" alt="dish">
+            </div>
+            <div class="first-header">
+                Найкраща випічка у місті
+            </div>
+            <div class="first-text">
+            Найкраща якість. Тому що зроблено з душею
+            </div>
+        </div>
 
-</main>
+        <div class="second">
+            <div class="menu-image-second">
+                <img src="dish-image.png" alt="dish">
+            </div>
+            <div class="second-header">
+                Недорога випічка
+            </div>
+            <div class="second-text">
+                Ціна нашої випічки залежить тільки від її кількості
+            </div>
+        </div>
 
-<!-- ******FOOTER****** -->
-<footer class="footer">
-    <div class="container text-center">
-        <small class="copyright"><?= 'Designed by Me!' ?></small>
-    </div><!--//container-->
-</footer><!--//footer-->
+        <div class="third">
+            <div class="menu-image-third">
+                <img src="dish-image.png" alt="dish">
+            </div>
+            <div class="third-header">
+                Чарівна атмосфера
+            </div>
+            <div class="third-text">
+                У нашому закладі панує магічна атмосфера
+                наповнена смачними ароматами
+            </div>
+        </div>
+    </div>
 
-<!-- Javascript -->
+    <div class="dawn">
+        <div class="up-video-text">
+        Невелике відео про нас
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=D6U8jgwTkNg-mZzk" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="bottom-text">Доставка у межах міста безкоштовна. <br> Тож постіши зробити замовлення
+        </div>
+        <div class="button2">
+        <a class="butt" href="#">Зробити замовлення</a>
+        </div>
+
+    </div>    
+
 </body>
-</html>
