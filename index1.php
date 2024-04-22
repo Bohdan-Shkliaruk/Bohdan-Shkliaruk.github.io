@@ -45,7 +45,7 @@
                     </div>
 
                     <div class="menu-holder">
-                    <a href="#">
+                    <a href="http://localhost/myProject/index.php">
                         <div class="menutext">Вітаємо у нашій пекарні!</div>
                         <img src="menu1.png" alt="MENU">
                     </a>
